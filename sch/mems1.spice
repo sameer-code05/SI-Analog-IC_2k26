@@ -1,0 +1,43 @@
+** sch_path: /foss/designs/sameer-code05/mems1.sch
+**.subckt mems1
+R1 vin1 vin 380 m=1
+R2 net1 vin2 4.7k m=1
+C1 vin2 vin1 4.7u m=1
+R3 vref vbat 10k m=1
+R4 GND vref 10k m=1
+C2 vout net1 27p m=1
+C3 GND vout 1p m=1
+V1 vin GND SIN(0 0.3535m 200k)
+V2 vbat GND 2.5
+E1 vout GND vref net1 10e5
+C4 GND vref 1p m=1
+R5 vout net1 300k m=1
+**** begin user architecture code
+
+
+
+.param temp = 27
+.control
+save all
+op
+
+tran 0.1u 10m
+
+meas tran vin_peak MAX V(vin2)
+meas tran vout_peak MAX V(vout)
+let gain = vout_peak / vin_peak
+let gaindb= 20*log10(gain)
+
+write
+PLOT v(vout)
+.endc
+
+
+
+* ngspice commands
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end
