@@ -51,31 +51,31 @@
 
 
 # DAY 4
-#### DATE- 28TH  May 2026
+## DATE- 28TH  May 2026
 
-**Activities**
+##3 Activities
 - Reviewed RC and active circuit concepts through lecture slides.
 - Studied frequency response of linear circuits, including high-pass and low-pass filters.
 - Began working with the ADALM 2000 hardware platform in the lab.
-**Key Learnings**
+### Key Learnings
 - Frequency response characteristics of filters.
 - Basics of using ADALM 2000 for circuit measurements and experiments.
-**Outcome**
+### Outcome
 - Developed a better understanding of filter circuits and eda Tools and Scopy software.
 
 
 #DAY 5
-#### DATE - 28TH  May 2026
+## DATE - 29TH  May 2026
 
-**Activities**
+### Activities
 - Studied the Thevenin equivalent model of a MEMS microphone.
 - Learned the modeling of the Analog Front-End (AFE) of an amplifier.
 - Continued hands-on exercises with the ADALM 2000 platform.
-**Key Learnings**
+### Key Learnings
 - Simplifying microphone circuits using Thevenin equivalents.
 - Fundamentals of Analog Front-End design and modeling.
 - Practical use of ADALM 2000 for circuit analysis.
-**Outcome**
+### Outcome
 - Gained insight into analog signal acquisition and front-end circuit design.
 
 
