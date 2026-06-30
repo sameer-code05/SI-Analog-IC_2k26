@@ -111,6 +111,32 @@
 - we solved few problems related to it.
 
 
+# DAY 10
+## DATE - 5/6/26
+
+## Activities
+Studied the MEMS microphone schematic in greater detail.
+Verified the waveforms for DC, AC, and Pulse inputs.
+Observed the output using the ADALM2000 board for different input frequencies.
+### Key Learnings
+Response of the MEMS microphone circuit to different input signal types.
+Waveform analysis using the ADALM2000.
+Effect of input frequency on the output response.
+### Outcome
+Gained a better understanding of the MEMS microphone schematic and its behavior under different input signals and frequencies.
+### Next Steps
+Analyze the frequency response in more detail.
+Perform additional testing with varying signal amplitudes and frequencies.
+
+
+
+
+
+
+
+
+
+
 
 
 
