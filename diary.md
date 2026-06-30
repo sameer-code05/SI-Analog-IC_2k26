@@ -81,13 +81,20 @@
 
 # DAY 6
 ##  
--Today we again checked the Schematic of the MEMS microphone on the XSChem and simulated it
--we took different inputs like AC,DC and SIN input for the Voltage source and the Input source and checked how the circuit is behaving
--we checked the output for different input of frequency like 1KHz,1Hz,200KHz.
--we measured the magnitude of Vout,and the -3db frequency of High-pass filter and Low-Pass filter
--we have measured the peak to peak voltage of Input and Output and calculated the gain for different frequencies
+- Today we again checked the Schematic of the MEMS microphone on the XSChem and simulated it
+- we took different inputs like AC,DC and SIN input for the Voltage source and the Input source and checked how the circuit is behaving
+- we checked the output for different input of frequency like 1KHz,1Hz,200KHz.
+- we measured the magnitude of Vout,and the -3db frequency of High-pass filter and Low-Pass filter
+- we have measured the peak to peak voltage of Input and Output and calculated the gain for different frequencies
 
-
+# DAY 7
+##
+- Modeled the Op-Amp as a single-pole amplifier.
+- Verified the input and output waveforms for different input frequencies.
+- Connected the MEMS microphone module to the ADALM2000 board.
+- Applied a 1 kHz sound signal to the microphone and observed the output waveform.
+- Used Scopy to analyze the microphone waveforms.
+- Varied the distance of the sound source and observed the change in output amplitude.
 
 
 
